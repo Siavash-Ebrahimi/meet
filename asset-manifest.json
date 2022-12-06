@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Siavash-Ebrahimi/meet.git/static/css/main.073c9b0a.css",
+    "main.js": "/Siavash-Ebrahimi/meet.git/static/js/main.0975d7f1.js",
+    "static/js/787.4b564826.chunk.js": "/Siavash-Ebrahimi/meet.git/static/js/787.4b564826.chunk.js",
+    "service-worker.js": "/Siavash-Ebrahimi/meet.git/service-worker.js",
+    "static/media/logo.svg": "/Siavash-Ebrahimi/meet.git/static/media/logo.103b5fa18196d5665a7e12318285c916.svg",
+    "index.html": "/Siavash-Ebrahimi/meet.git/index.html",
+    "main.073c9b0a.css.map": "/Siavash-Ebrahimi/meet.git/static/css/main.073c9b0a.css.map",
+    "main.0975d7f1.js.map": "/Siavash-Ebrahimi/meet.git/static/js/main.0975d7f1.js.map",
+    "787.4b564826.chunk.js.map": "/Siavash-Ebrahimi/meet.git/static/js/787.4b564826.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.0975d7f1.js"
+  ]
+}
