@@ -1,6 +1,6 @@
 // src/mock-data.js
 
-const mockData = [
+let mockData = [
 
   {
     "kind": "calendar#event",
