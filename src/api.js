@@ -57,7 +57,7 @@ export const getEvents = async () => {
   const token = await getAccessToken();
   if (token) {
     removeQuery();
-    const url = 'https://**********.execute-api.eu-central-1.amazonaws.com/dev/api/get-events' + '/' + token;
+    const url = 'https://2o9s526dya.execute-api.eu-central-1.amazonaws.com/dev/api/get-events' + '/' + token;
     const result = await axios.get(url);
     if (result.data) {
       var locations = extractLocations(result.data.events);
@@ -73,7 +73,7 @@ const getToken = async (code) => {
   try {
     const encodeCode = encodeURIComponent(code);
 
-    const response = await fetch('YOUR_GET_ACCESS_TOKEN_ENDPOINT' + '/' + encodeCode);
+    const response = await fetch('https://2o9s526dya.execute-api.eu-central-1.amazonaws.com/dev/api/token' + '/' + encodeCode);
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`)
     }
@@ -95,7 +95,7 @@ export const getAccessToken = async () => {
     const code = await searchParams.get("code");
     if (!code) {
       const results = await axios.get(
-        "YOUR_SERVERLESS_GET_AUTH_URL_ENDPOINT"
+        "https://2o9s526dya.execute-api.eu-central-1.amazonaws.com/dev/api/get-auth-url"
       );
       const { authUrl } = results.data;
       return (window.location.href = authUrl);
