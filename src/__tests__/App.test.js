@@ -30,16 +30,6 @@ describe('<App /> Unite Test: Just component', () => {
 
 describe('<App /> Integration test App component and all its dependencies', () => {
 
-  // let AppWrapper;
-  // beforeAll(() => {
-  //   AppWrapper = mount(<App />);
-  // });
-
-  // afterAll(() => {
-  //   AppWrapper.unmount();
-  // });
-
-
   test('Integration test: App passes "events" state as a prop to EventList', () => {
     const AppWrapper = mount(<App />); // 1) Render the App componenet with all its depenedncies and save it in AppWrapper variable.    
     const AppEventsState = AppWrapper.state('events'); // 2) After render App we check dose it has any state of 'events' name or note and save it in another variable.

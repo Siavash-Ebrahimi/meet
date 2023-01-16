@@ -35,4 +35,6 @@ describe('<NumberOfEvents /> component', () => {
 
     expect(NumberOfEventsWrapperWithProp.state('num')).toBe(10);
   });
+
+
 })
