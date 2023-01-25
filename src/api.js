@@ -90,21 +90,6 @@ const removeQuery = () => {
   }
 };
 
-// const getToken = async (code) => {
-//   try {
-//     const encodeCode = encodeURIComponent(code);
-
-//     const response = await fetch(`https://2o9s526dya.execute-api.eu-central-1.amazonaws.com/dev/api/token/${encodeCode})`                                 
-//     if (!response.ok) {
-//       throw new Error(`HTTP error! status: ${response.status}`)
-//     }
-//     const { access_token } = await response.json();
-//     access_token && localStorage.setItem("access_token", access_token);
-//     return access_token;
-//   } catch (error) {
-//     error.json();
-//   }
-// }
 
 const getToken = async (code) => {
   const encodeCode = encodeURIComponent(code);
