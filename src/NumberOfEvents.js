@@ -43,7 +43,7 @@ export default class NumberOfEvents extends Component {
           onChange={this.handleInputChanged}
         >
         </input>
-        <div>
+        <div className="ErrorAlert">
           <ErrorAlert className='redAlert' text={this.state.errorText} />
         </div>
       </div >
