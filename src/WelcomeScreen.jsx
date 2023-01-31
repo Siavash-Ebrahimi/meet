@@ -5,7 +5,7 @@ function WelcomeScreen(props) {
     (
       <div className="WelcomeScreen">
         <h1>Welcome to the Meet App</h1>
-        <h3>A Progressive Web App - PWA</h3>
+        <h3>A Progressive Web App</h3>
         <h4>
           Please Log in to see upcoming events around the world for full-stackdevelopers!!
         </h4>
@@ -20,14 +20,14 @@ function WelcomeScreen(props) {
             <button onClick={() => { props.getAccessToken() }}
               rel="nofollow noopener"
               className="btn-text">
-              <b>Sign in with google</b>
+              <b>Sign in with Google</b>
             </button>
           </div>
         </div>
-        No data is being gathered or shared by this app. For more details, please see our
-        <a href="https://github.com/Siavash-Ebrahimi/meet/blob/main/public/privecy.html" rel="nofollow noopener">
-          Privacy Policy
-        </a>
+        <p>Kindly note no data is being gathered or shared by this app.</p>
+        <p> For more details, please check
+          <a href="privecy.html" rel="nofollow noopener">Privacy Policy</a>
+        </p>
       </div>
     )
     : null
