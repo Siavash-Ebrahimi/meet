@@ -26,7 +26,7 @@ function WelcomeScreen(props) {
         </div>
         <p>Kindly note no data is being gathered or shared by this app.</p>
         <p> For more details, please check
-          <a href="privecy.html" rel="nofollow noopener">Privacy Policy</a>
+          <a href="https://Siavash-Ebrahimi.github.io/meet/privacy.html" rel="nofollow noopener">Privacy Policy</a>
         </p>
       </div>
     )
