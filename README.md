@@ -11,6 +11,10 @@ Meet App is a serverless, progressive web application (PWA) with React using a t
 + Add an app shortcut to the home screen.
 + View a chart showing the number of upcoming events by city.
 
+![screenshot](img/meet.jpg)
+
+![screenshot](img/meet1.jpg)
+
 ## Main Features in detail:
 
 **Feature 1: Filter events by city**
@@ -99,5 +103,5 @@ Given the user chooses a specific city
 When the user wants to view data regarding future events
 Then the desired visualisation chart will be displayed
 
-
+## Live Demo
 [Try the Meet App](https://Siavash-Ebrahimi.github.io/meet)
